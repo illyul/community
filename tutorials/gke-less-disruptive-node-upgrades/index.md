@@ -17,7 +17,7 @@ node pool with and without surge upgrades and measure the error rate on the clie
 ## Objectives
 
 * Run a demonstration application that serves HTTP requests. Processing of each request requires access to a resource. Each
-  node of the cluster has access only to a limted number of resources. If there are no available resources left, the server 
+  node of the cluster has access only to a limited number of resources. If there are no available resources left, the server 
   returns an error.
 * Test the application with lower and higher load and observe how error rate increases as the server runs out of resources.
 * Upgrade the nodes without surge upgrades. Observe how the temporary loss of capacity causes increased error rates.
